@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Торез|Обратная связь</title>
+</head>
+<body>
+    <header>   
+        <div class="container">
+            
+            <div class="logo">
+               <a href="file:///D:/Web-Prog/Lab1/index.html"> <img src="img/gerb.png" alt="" > </a>
+                
+            </div>
+        
+        <nav class="menu">
+            <!--Меню-->
+            <ul>
+                <li><a href="page1.html">Транспорт</a></li>
+                <li><a href="page2.html">Культура и социальная сфера</a></li>
+                <li><a href="page3.html">Галерея</a></li>
+                <li><a href="page4.html">География</a></li>
+                <li><a href="page5.html">История</a></li>
+                <li><a href="page6.html">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <form name="form" action="mail.php" method="post" id="form_message">
+		<h2>Форма обратной связи.</h2>
+		<p> <div class="titles">Ваше имя</div> <input class="input" name="name" type="text"/> </p>
+		 
+		<p> <div class="titles">Электронная почта</div> <input required="required" class="input" name="email" type="text"/> </p>
+		 
+		<p> <div class="titles">Тема сообщения</div> <input class="input" name="subjects" type="text"/> </p>
+		 
+		<p> <div class="titles">Текст сообщения:</div><textarea name="message" cols="22" rows="5"></textarea></p>
+		<p><input id="submit" value="Отправить" type="submit" /></p>
+	</form>
+<footer>    
+</footer>    
+</body>
+</html>
